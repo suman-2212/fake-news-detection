@@ -1,0 +1,90 @@
+# --- OS & Editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Packaging / build
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# Testing / tooling caches
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.tox/
+.coverage*
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs & runtime
+*.log
+logs/
+*.pid
+
+# Environment / secrets
+.env
+.env.*
+*.env
+
+# Data & artifacts (keep top-level CSVs currently tracked)
+data/
+models/
+checkpoints/
+artifacts/
+
+# ML model files
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.bin
+*.onnx
+
+# Cache directories
+.cache/
+
+# --- Node/Frontend ---
+frontend/node_modules/
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/
+
+# Next.js / React builds
+.next/
+frontend/.next/
+out/
+.next-cache/
+.vercel/
+.turbo/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Misc ---
+*.bak
+*.orig
+*.tmp
+~$*
